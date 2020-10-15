@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagens/login/norwa.jpg);
+    background-size: auto;
+    font-family: 'Times New Roman';
+}
+input{
+    display: block;
+    height: 20px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    border:0.5px solid white;
+    font-size: 12pt;
+    padding: 10px 20px;
+    color: black;
+    outline: none;
+    
+}
+
+div#erro{
+    background-color: red;
+    display: block;
+    height: 20px;
+    width: 400px;
+    margin: 10px auto 0 32px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    border-radius: 10px;
+    transition:all 1.0s ease;
+}
+
+div#jacadastrado{
+    background-color: red;
+    display: block;
+    height: 20px;
+    width: 400px;
+    margin: 10px auto 0 32px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    border-radius: 10px;
+    transition:all 1.0s ease;
+}
+div#userjacadastrado{
+    background-color: red;
+    display: block;
+    height: 20px;
+    width: 400px;
+    margin: 10px auto 0 32px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    border-radius: 10px;
+    transition:all 1.0s ease;
+}
+div#sucesso{
+    background-color: limegreen;
+    display: block;
+    height: 65px;
+    width: 400px;
+    margin: 10px auto 0px 32px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    border-radius: 09px;
+    transition:all 0.50s ease;
+}
+
+input:hover{
+   /*  border-radius: 11px; */
+   border: 1px solid rgb(16, 230, 52);
+   /*  font-size: 13pt; */
+}
+div#body-form{
+    background-size: cover;
+    width: 420px;
+    margin: 140px auto 0px auto;
+    
+
+}
+
+div#body-form h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+input[type=submit]{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px auto 0 32px;
+    /* background-color: rgb(18, 161, 37); */
+    background-color: rgb(14, 130, 224);
+    border: 0px solid rgb(2, 2, 2);
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;;
+}
+input[type=submit]:hover{
+    /*  border-radius: 11px; */
+   background-color: rgb(14, 85, 143);
+}
+
+
+img#img{
+    text-align: center;
+    margin: auto auto auto 50px;
+}
+::-webkit-input-placeholder { color: black;}
+
+:-moz-placeholder{color: black;}
+
+::-moz-placeholder{color: black;}
+
+:-ms-input-placeholder{color: black;}
